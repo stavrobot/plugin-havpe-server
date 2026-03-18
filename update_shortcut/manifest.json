@@ -1,0 +1,19 @@
+{
+  "name": "update_shortcut",
+  "description": "Update an existing voice command shortcut on the HAVPE server by its 0-based index. Use list_shortcuts to find the index.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "index": {
+      "type": "integer",
+      "description": "The 0-based index of the shortcut to update."
+    },
+    "regex": {
+      "type": "string",
+      "description": "The new regex pattern to match spoken phrases."
+    },
+    "url": {
+      "type": "string",
+      "description": "The new URL to open when the regex matches."
+    }
+  }
+}

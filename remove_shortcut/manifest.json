@@ -1,0 +1,11 @@
+{
+  "name": "remove_shortcut",
+  "description": "Remove a voice command shortcut from the HAVPE server by its 0-based index. Use list_shortcuts to find the index.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "index": {
+      "type": "integer",
+      "description": "The 0-based index of the shortcut to remove."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "list_shortcuts",
+  "description": "List all voice command shortcuts on the HAVPE server. Each shortcut has an index (0-based), a regex pattern, and a URL.",
+  "entrypoint": "run.py",
+  "parameters": {}
+}

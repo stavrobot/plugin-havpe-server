@@ -1,0 +1,15 @@
+{
+  "name": "add_shortcut",
+  "description": "Add a new voice command shortcut to the HAVPE server. Shortcuts short-circuit the normal voice pipeline so the command triggers a URL directly without going through the LLM. They are meant for running specific home automation macros (e.g. turning lights on/off, goodnight routines). Because they bypass the LLM, the regex should be fairly specific to avoid false matches. The regex should be case-insensitive and constructed to ignore punctuation (commas, full stops, question marks, etc.) that speech-to-text may insert, since transcripts include spurious punctuation.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "regex": {
+      "type": "string",
+      "description": "The regex pattern to match spoken phrases. Should be case-insensitive and tolerant of spurious punctuation from speech-to-text."
+    },
+    "url": {
+      "type": "string",
+      "description": "The URL to open when the regex matches."
+    }
+  }
+}
