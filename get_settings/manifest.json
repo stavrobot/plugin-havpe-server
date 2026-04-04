@@ -1,0 +1,6 @@
+{
+  "name": "get_settings",
+  "description": "Get the current settings of the HAVPE server. Returns the STT (speech-to-text) language code and the TTS (text-to-speech) playback speed configured on the Voice PE device.",
+  "entrypoint": "run.py",
+  "parameters": {}
+}

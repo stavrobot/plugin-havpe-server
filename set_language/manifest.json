@@ -1,0 +1,11 @@
+{
+  "name": "set_language",
+  "description": "Set the STT (speech-to-text) language on the Voice PE device. The language controls which language ElevenLabs uses to transcribe spoken audio. Use an ElevenLabs STT language code (e.g. 'en' for English, 'es' for Spanish, 'fr' for French). Default is 'en'. Returns the full updated settings object.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "language": {
+      "type": "string",
+      "description": "The ElevenLabs STT language code (e.g. 'en', 'es', 'fr'). Default is 'en'."
+    }
+  }
+}

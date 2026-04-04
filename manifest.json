@@ -1,6 +1,6 @@
 {
   "name": "havpe-server",
-  "description": "Manage voice command shortcuts on a HAVPE server.",
+  "description": "Manage voice command shortcuts and runtime settings on a HAVPE server.",
   "config": {
     "havpe_url": {
       "description": "Base URL of the HAVPE server (e.g. http://192.168.1.50:8085)",

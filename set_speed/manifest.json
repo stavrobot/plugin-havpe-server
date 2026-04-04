@@ -1,0 +1,11 @@
+{
+  "name": "set_speed",
+  "description": "Set the TTS (text-to-speech) playback speed on the Voice PE device. The speed controls how fast the assistant speaks. Valid range is 0.7 (slower) to 1.2 (faster), with a default of 1.0 (normal speed). Returns the full updated settings object.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "speed": {
+      "type": "number",
+      "description": "The TTS playback speed. Valid range is 0.7 to 1.2. Default is 1.0."
+    }
+  }
+}
